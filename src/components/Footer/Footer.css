@@ -1,0 +1,82 @@
+.Footer{
+    width: 98%;
+    height: auto;
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+.top{
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #777;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 100px;
+}
+.top_input_left, .top_input_right{
+    width: 200px;
+
+}
+.top_chek_left{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+
+}
+.top_chek_left form{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top_chek_left label{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.top button{
+    width: 100px;
+    height: 40px;
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.top button:active{
+    box-shadow: 0 0 1px 5px rgba(30, 143, 255, 0.164);
+}
+.data_panel{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.liner{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: flex;
+    font-family: sans-serif;
+    color: black !important;
+    
+}
+.liner a{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.table{
+    margin: 20px;
+}
+.liner span:hover{
+    margin-bottom: 10px red;
+}
